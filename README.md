@@ -24,7 +24,7 @@ Execute o código `camada_car.py` para remover os CARs cancelados e classificar 
 
 ### Sobre os arquivos
 
-* [**camada_car.py**](camada_car.py): Tem como input a `Relatorio-Buscar-Imoveis.csv` e output `Planilha.csv` com colunas removidas e renomeadas.
+* [**camada_car.py**](camada_car.py): Tem como input e output o `AREA_IMOVEL_1.shp`, que deverá ser baixado no [site do CAR](https://www.car.gov.br/#/).
 
 ## Instalação
 
