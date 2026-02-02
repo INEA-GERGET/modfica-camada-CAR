@@ -51,7 +51,7 @@ if os.path.exists(caminho_original):
     ]
 
     # --- SOBRESCREVENDO O ARQUIVO ---
-    print("Sobrescrevendo o arquivo original com as novas colunas...")
+    print("Classificando os imóveis e sobrescrevendo o arquivo original...")
     try:
         # O GeoPandas irá deletar os componentes antigos (.shp, .dbf, .shx) 
         # e criar os novos com a coluna 'classe' incluída.
@@ -64,4 +64,5 @@ if os.path.exists(caminho_original):
         print(f"\nErro crítico ao tentar sobrescrever: {e}")
 else:
     print(f"Erro: O arquivo {caminho_original} não foi encontrado para sobrescrever.")
+
 
